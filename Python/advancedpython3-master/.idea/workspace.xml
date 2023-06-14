@@ -1,0 +1,641 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0629a549-70f2-4599-8251-4cab35ded4ae" name="Default Changelist" comment="Added connction example and updated transactional examples">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter12/StarshipMeteors.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter12/StarshipMeteors.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1Ohc5qX5TQkCjp3okNAurGgyIDV" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="editor.config.ad.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/chapter9" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+      </console-settings>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/chapter9" />
+      <recent name="$PROJECT_DIR$/chapter21/exercise" />
+      <recent name="$PROJECT_DIR$/chapter17" />
+      <recent name="$PROJECT_DIR$/chapter12" />
+      <recent name="$PROJECT_DIR$/chapter27" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/chapter8" />
+      <recent name="$PROJECT_DIR$/chapter35" />
+      <recent name="$PROJECT_DIR$/chapter34" />
+      <recent name="$PROJECT_DIR$/chapter4" />
+      <recent name="$PROJECT_DIR$/chapter28" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.StarshipMeteors">
+    <configuration name="PyDraw" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="furtherpython3" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter9" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter9/PyDraw.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="SampleDCApp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="furtherpython3" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter7" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter7/SampleDCApp.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="SimpleHelloWorldApp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="furtherpython3" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter7" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter7/SimpleHelloWorldApp.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="StarshipMeteors" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="furtherpython3" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter12" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter12/StarshipMeteors.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TicTacToeGuiApp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="furtherpython3" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter8/exercises" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter8/exercises/TicTacToeGuiApp.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.StarshipMeteors" />
+      <item itemvalue="Python.SampleDCApp" />
+      <item itemvalue="Python.SimpleHelloWorldApp" />
+      <item itemvalue="Python.TicTacToeGuiApp" />
+      <item itemvalue="Python.PyDraw" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.StarshipMeteors" />
+        <item itemvalue="Python.PyDraw" />
+        <item itemvalue="Python.TicTacToeGuiApp" />
+        <item itemvalue="Python.SimpleHelloWorldApp" />
+        <item itemvalue="Python.SampleDCApp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0629a549-70f2-4599-8251-4cab35ded4ae" name="Default Changelist" comment="" />
+      <created>1556277447535</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1556277447535</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Added exercieses solution and general tidying">
+      <created>1558542914103</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1558542914104</updated>
+    </task>
+    <task id="LOCAL-00045" summary="changed output format">
+      <created>1558547318371</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1558547318371</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Added simple Flask web service examples">
+      <created>1558599146676</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1558599146676</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Tidying Flask web service examples">
+      <created>1558621195376</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1558621195377</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Adding RGB colour example">
+      <created>1559120190869</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1559120190869</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Added additional comments">
+      <created>1559120226856</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1559120226856</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Updated title">
+      <created>1560160716401</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1560160716401</updated>
+    </task>
+    <task id="LOCAL-00051" summary="Added a comment">
+      <created>1560160840265</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1560160840265</updated>
+    </task>
+    <task id="LOCAL-00052" summary="Added some additional comments">
+      <created>1560165293042</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1560165293043</updated>
+    </task>
+    <task id="LOCAL-00053" summary="Moved fractal tree exercise solution into separate directory">
+      <created>1560167326751</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1560167326752</updated>
+    </task>
+    <task id="LOCAL-00054" summary="Modified for two players">
+      <created>1560175842347</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1560175842347</updated>
+    </task>
+    <task id="LOCAL-00055" summary="Added a comment">
+      <created>1560175985758</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1560175985758</updated>
+    </task>
+    <task id="LOCAL-00056" summary="Reorganized directories to mirror changes in chapter order">
+      <created>1560177894715</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1560177894715</updated>
+    </task>
+    <task id="LOCAL-00057" summary="Sample solution for Excel exercise">
+      <created>1560178383756</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1560178383756</updated>
+    </task>
+    <task id="LOCAL-00058" summary="Accounts Excel file example">
+      <created>1560178462900</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1560178462900</updated>
+    </task>
+    <task id="LOCAL-00059" summary="Added database exercise sample solution">
+      <created>1560183270744</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1560183270744</updated>
+    </task>
+    <task id="LOCAL-00060" summary="Provided 75, 50 and 25% transparency examples">
+      <created>1560413127304</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1560413127305</updated>
+    </task>
+    <task id="LOCAL-00061" summary="Refined initial computer art example">
+      <created>1560442644215</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1560442644215</updated>
+    </task>
+    <task id="LOCAL-00062" summary="Updates to improve layout, comments and simplify examples">
+      <created>1560766072196</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1560766072196</updated>
+    </task>
+    <task id="LOCAL-00063" summary="Added further comments and print statements to examples">
+      <created>1560929449881</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1560929449882</updated>
+    </task>
+    <task id="LOCAL-00064" summary="Fixed printout type and added comments">
+      <created>1560932121139</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1560932121139</updated>
+    </task>
+    <task id="LOCAL-00065" summary="Fixed initial value string literal">
+      <created>1560935960051</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1560935960051</updated>
+    </task>
+    <task id="LOCAL-00066" summary="Separated the bookshop web services into a separate chapter">
+      <created>1560936324878</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1560936324878</updated>
+    </task>
+    <task id="LOCAL-00067" summary="Split pygame chapter into two">
+      <created>1560950211500</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1560950211500</updated>
+    </task>
+    <task id="LOCAL-00068" summary="Removed unused import">
+      <created>1560958566059</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1560958566059</updated>
+    </task>
+    <task id="LOCAL-00069" summary="Corrected comment">
+      <created>1560960624086</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1560960624086</updated>
+    </task>
+    <task id="LOCAL-00070" summary="Fixed typo in print statement">
+      <created>1561016454724</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1561016454724</updated>
+    </task>
+    <task id="LOCAL-00071" summary="Refactoring directory structure to match changes to book">
+      <created>1561039311554</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1561039311555</updated>
+    </task>
+    <task id="LOCAL-00072" summary="First draft of PyDraw sample GUI application">
+      <created>1561053359046</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1561053359046</updated>
+    </task>
+    <task id="LOCAL-00073" summary="removed unused parameter">
+      <created>1561053768824</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1561053768824</updated>
+    </task>
+    <task id="LOCAL-00074" summary="Refactored the application classes">
+      <created>1561221908849</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1561221908849</updated>
+    </task>
+    <task id="LOCAL-00075" summary="Further Refactoring of the application classes">
+      <created>1561286834923</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1561286834923</updated>
+    </task>
+    <task id="LOCAL-00076" summary="Added abstract method to the Figure class">
+      <created>1561287369754</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1561287369754</updated>
+    </task>
+    <task id="LOCAL-00077" summary="General tidying of code and names">
+      <created>1561370971066</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1561370971066</updated>
+    </task>
+    <task id="LOCAL-00078" summary="Added a simple example of using a device context for graphic displays">
+      <created>1561390098049</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1561390098050</updated>
+    </task>
+    <task id="LOCAL-00079" summary="Added connction example and updated transactional examples">
+      <created>1565347376618</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1565347376618</updated>
+    </task>
+    <task id="LOCAL-00080" summary="An example using MongoDB and pymongo to create a database, add documents, retrieve documents and delete documents.">
+      <created>1565606434726</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1565606434727</updated>
+    </task>
+    <task id="LOCAL-00081" summary="Some profiling examples">
+      <created>1565634510421</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1565634510421</updated>
+    </task>
+    <task id="LOCAL-00082" summary="Added pytest-mock example">
+      <created>1565691842272</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1565691842272</updated>
+    </task>
+    <task id="LOCAL-00083" summary="Renamed TCP/IP Socket server and client examples">
+      <created>1567005275692</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1567005275692</updated>
+    </task>
+    <task id="LOCAL-00084" summary="Added UDP Broadcast socket server and client">
+      <created>1567005298491</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1567005298491</updated>
+    </task>
+    <task id="LOCAL-00085" summary="Added some additional comments">
+      <created>1567006028529</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1567006028530</updated>
+    </task>
+    <task id="LOCAL-00086" summary="Messaging client example for use with ActiveMQ">
+      <created>1569857719648</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1569857719648</updated>
+    </task>
+    <task id="LOCAL-00087" summary="Added examples using the latest ActiveMQ Artemis release">
+      <created>1569924016052</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1569924016052</updated>
+    </task>
+    <task id="LOCAL-00088" summary="Added package comment">
+      <created>1588624082173</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1588624082173</updated>
+    </task>
+    <task id="LOCAL-00089" summary="Increased tracer set">
+      <created>1588624108225</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1588624108225</updated>
+    </task>
+    <task id="LOCAL-00090" summary="Reformatted and added introductory comment">
+      <created>1588757038755</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1588757038755</updated>
+    </task>
+    <task id="LOCAL-00091" summary="Reformatted using IDE reformatter">
+      <created>1588757057539</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1588757057539</updated>
+    </task>
+    <task id="LOCAL-00092" summary="Changed attribute names to following Python conventions">
+      <created>1589480068600</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1589480068600</updated>
+    </task>
+    <option name="localTasksCounter" value="93" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Removed unused import" />
+    <MESSAGE value="Corrected comment" />
+    <MESSAGE value="Fixed typo in print statement" />
+    <MESSAGE value="Refactoring directory structure to match changes to book" />
+    <MESSAGE value="First draft of PyDraw sample GUI application" />
+    <MESSAGE value="removed unused parameter" />
+    <MESSAGE value="Refactored the application classes" />
+    <MESSAGE value="Further Refactoring of the application classes" />
+    <MESSAGE value="Added abstract method to the Figure class" />
+    <MESSAGE value="General tidying of code and names" />
+    <MESSAGE value="Added a simple example of using a device context for graphic displays" />
+    <MESSAGE value="Added connction example and updated transactional examples" />
+    <MESSAGE value="An example using MongoDB and pymongo to create a database, add documents, retrieve documents and delete documents." />
+    <MESSAGE value="Some profiling examples" />
+    <MESSAGE value="Added pytest-mock example" />
+    <MESSAGE value="Renamed TCP/IP Socket server and client examples" />
+    <MESSAGE value="Added UDP Broadcast socket server and client" />
+    <MESSAGE value="Added some additional comments" />
+    <MESSAGE value="Messaging client example for use with ActiveMQ" />
+    <MESSAGE value="Added examples using the latest ActiveMQ Artemis release" />
+    <MESSAGE value="Added package comment" />
+    <MESSAGE value="Increased tracer set" />
+    <MESSAGE value="Reformatted and added introductory comment" />
+    <MESSAGE value="Reformatted using IDE reformatter" />
+    <MESSAGE value="Changed attribute names to following Python conventions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed attribute names to following Python conventions" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1589" y="260" key="#StarshipMeteors" timestamp="1588770732263">
+      <screen x="43" y="23" width="2517" height="1417" />
+    </state>
+    <state x="1589" y="260" key="#StarshipMeteors/43.23.2517.1417@43.23.2517.1417" timestamp="1588770732263" />
+    <state x="1301" y="364" key="CommitChangelistDialog2" timestamp="1589480132052">
+      <screen x="43" y="23" width="2517" height="1417" />
+    </state>
+    <state x="1301" y="364" key="CommitChangelistDialog2/43.23.2517.1417@43.23.2517.1417" timestamp="1589480132052" />
+    <state x="1124" y="389" width="1200" height="800" key="DiffContextDialog" timestamp="1588624120245">
+      <screen x="43" y="23" width="2517" height="1417" />
+    </state>
+    <state x="1124" y="389" width="1200" height="800" key="DiffContextDialog/43.23.2517.1417@43.23.2517.1417" timestamp="1588624120245" />
+    <state width="1209" height="207" key="GridCell.Tab.0.bottom" timestamp="1589389634190">
+      <screen x="43" y="23" width="2517" height="1417" />
+    </state>
+    <state width="1209" height="207" key="GridCell.Tab.0.bottom/41.23.2519.1417@41.23.2519.1417" timestamp="1589387813583" />
+    <state width="1209" height="299" key="GridCell.Tab.0.bottom/42.23.2518.1417@42.23.2518.1417" timestamp="1589378561992" />
+    <state width="1209" height="207" key="GridCell.Tab.0.bottom/43.23.2517.1417@43.23.2517.1417" timestamp="1589389634190" />
+    <state width="1209" height="207" key="GridCell.Tab.0.center" timestamp="1589389634190">
+      <screen x="43" y="23" width="2517" height="1417" />
+    </state>
+    <state width="1209" height="207" key="GridCell.Tab.0.center/41.23.2519.1417@41.23.2519.1417" timestamp="1589387813582" />
+    <state width="1209" height="299" key="GridCell.Tab.0.center/42.23.2518.1417@42.23.2518.1417" timestamp="1589378561992" />
+    <state width="1209" height="207" key="GridCell.Tab.0.center/43.23.2517.1417@43.23.2517.1417" timestamp="1589389634190" />
+    <state width="1209" height="207" key="GridCell.Tab.0.left" timestamp="1589389634190">
+      <screen x="43" y="23" width="2517" height="1417" />
+    </state>
+    <state width="1209" height="207" key="GridCell.Tab.0.left/41.23.2519.1417@41.23.2519.1417" timestamp="1589387813582" />
+    <state width="1209" height="299" key="GridCell.Tab.0.left/42.23.2518.1417@42.23.2518.1417" timestamp="1589378561991" />
+    <state width="1209" height="207" key="GridCell.Tab.0.left/43.23.2517.1417@43.23.2517.1417" timestamp="1589389634190" />
+    <state width="1209" height="207" key="GridCell.Tab.0.right" timestamp="1589389634190">
+      <screen x="43" y="23" width="2517" height="1417" />
+    </state>
+    <state width="1209" height="207" key="GridCell.Tab.0.right/41.23.2519.1417@41.23.2519.1417" timestamp="1589387813582" />
+    <state width="1209" height="299" key="GridCell.Tab.0.right/42.23.2518.1417@42.23.2518.1417" timestamp="1589378561992" />
+    <state width="1209" height="207" key="GridCell.Tab.0.right/43.23.2517.1417@43.23.2517.1417" timestamp="1589389634190" />
+    <state x="1324" y="529" key="Vcs.Push.Dialog.v2" timestamp="1588757063275">
+      <screen x="43" y="23" width="2517" height="1417" />
+    </state>
+    <state x="1324" y="529" key="Vcs.Push.Dialog.v2/43.23.2517.1417@43.23.2517.1417" timestamp="1588757063275" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/chapter18/streams_options.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/chapter24/exercise/write_account_info.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

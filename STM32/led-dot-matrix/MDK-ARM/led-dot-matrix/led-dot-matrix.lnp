@@ -1,0 +1,22 @@
+--cpu Cortex-M3
+"led-dot-matrix\startup_stm32f103xb.o"
+"led-dot-matrix\main.o"
+"led-dot-matrix\stm32f1xx_it.o"
+"led-dot-matrix\stm32f1xx_hal_msp.o"
+"led-dot-matrix\stm32f1xx_hal_gpio_ex.o"
+"led-dot-matrix\stm32f1xx_hal_tim.o"
+"led-dot-matrix\stm32f1xx_hal_tim_ex.o"
+"led-dot-matrix\stm32f1xx_hal.o"
+"led-dot-matrix\stm32f1xx_hal_rcc.o"
+"led-dot-matrix\stm32f1xx_hal_rcc_ex.o"
+"led-dot-matrix\stm32f1xx_hal_gpio.o"
+"led-dot-matrix\stm32f1xx_hal_dma.o"
+"led-dot-matrix\stm32f1xx_hal_cortex.o"
+"led-dot-matrix\stm32f1xx_hal_pwr.o"
+"led-dot-matrix\stm32f1xx_hal_flash.o"
+"led-dot-matrix\stm32f1xx_hal_flash_ex.o"
+"led-dot-matrix\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "led-dot-matrix\led-dot-matrix.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "led-dot-matrix.map" -o led-dot-matrix\led-dot-matrix.axf

@@ -1,0 +1,5 @@
+sudo apt-get install python-imaging
+sudo apt-get install python-imaging-tk
+
+sudo apt-get update
+sudo apt-get install build-essential python-dev

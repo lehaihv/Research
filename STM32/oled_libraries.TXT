@@ -1,0 +1,125 @@
+#include "string.h"
+#include "ssd1306.h"
+#include "fonts.h"
+#include "test.h"
+#include "bitmap.h"
+#include "horse_anim.h"
+
+uint16_t value_adc = 4096; // adc_value
+int value_adc; // adc_value
+char buffer;
+uint16_t value_adc = 4096; // adc_value
+float volts = 0;
+char msg[5];
+
+
+  SSD1306_Init (); // initialize the display
+
+  SSD1306_GotoXY (10,10); // goto 10, 10
+  SSD1306_Puts ("HELLO", &Font_11x18, 1); // print Hello
+  SSD1306_GotoXY (10, 30);
+  SSD1306_Puts ("WORLD !!", &Font_11x18, 1);
+  SSD1306_UpdateScreen(); // update screen
+  HAL_Delay(1000);
+  SSD1306_Clear();
+  SSD1306_GotoXY (0,0); // goto 10, 10
+  SSD1306_Puts ("LE HUU HAI", &Font_11x18, 1); // print Hello
+  SSD1306_UpdateScreen(); // update screen
+  HAL_Delay(3000);
+
+	SSD1306_GotoXY (20,20); // goto 10, 10
+	  	  SSD1306_Putc ((char)(value_adc/1000+48), &Font_11x18, 1);
+	  	  SSD1306_Putc ((char)((value_adc%1000)/100+48), &Font_11x18, 1);
+	  	  SSD1306_Putc ((char)((value_adc%100)/10+48), &Font_11x18, 1);
+	  	  SSD1306_Putc ((char)(value_adc%10+48), &Font_11x18, 1);
+	  	  SSD1306_UpdateScreen(); // update screen
+	  	  HAL_Delay(50);
+
+  value_adc = HAL_ADC_GetValue(&hadc1);
+  SSD1306_Clear();
+  SSD1306_GotoXY (10,10); // goto 10, 10
+  SSD1306_Putc ((char)(value_adc/1000), &Font_11x18, 1);
+  SSD1306_Putc ((char)((value_adc%1000)/100), &Font_11x18, 1);
+  SSD1306_Putc ((char)((value_adc%100)/10), &Font_11x18, 1);
+  SSD1306_Putc ((char)(value_adc%10), &Font_11x18, 1);
+  SSD1306_UpdateScreen(); // update screen
+  HAL_Delay(1000);	//200ms delay
+  /*itoa(value_adc,buffer,10);
+  SSD1306_Puts (buffer, &Font_11x18, 1);*/
+
+while (1)
+  {
+    /* USER CODE END WHILE */
+	  // Get ADC value
+	  HAL_ADC_Start(&hadc1);
+	  HAL_ADC_PollForConversion(&hadc1, HAL_MAX_DELAY);
+	  value_adc = HAL_ADC_GetValue(&hadc1);
+
+	  SSD1306_GotoXY (20,20); // goto 10, 10
+	  SSD1306_Putc ((char)(value_adc/1000+48), &Font_11x18, 1);
+	  SSD1306_Putc ((char)((value_adc%1000)/100+48), &Font_11x18, 1);
+	  SSD1306_Putc ((char)((value_adc%100)/10+48), &Font_11x18, 1);
+	  SSD1306_Putc ((char)(value_adc%10+48), &Font_11x18, 1);
+
+	  volts = value_adc*333/4096;
+	  SSD1306_GotoXY (20,40); // goto 10, 10
+	  SSD1306_Putc ((char)((int)(volts)/100+48), &Font_11x18, 1);
+	  SSD1306_Puts (".", &Font_11x18, 1);
+	  SSD1306_Putc ((char)(((int)(volts)%100)/10+48), &Font_11x18, 1);
+	  SSD1306_Putc ((char)((int)(volts)%10+48), &Font_11x18, 1);
+	  SSD1306_UpdateScreen(); // update screen
+
+	  // Convert to string and print
+	  sprintf(msg,"%hu\r\n",value_adc);
+	  HAL_UART_Transmit(&huart2, (uint8_t*)msg, strlen(msg), HAL_MAX_DELAY);
+	  HAL_Delay(100);
+    /* USER CODE BEGIN 3 */
+  }
+
+//// HORSE ANIMATION START //////
+
+	 	  SSD1306_Clear();
+	 	  SSD1306_DrawBitmap(0,0,horse1,128,64,1);
+	 	  SSD1306_UpdateScreen();
+
+	 	  SSD1306_Clear();
+	 	  SSD1306_DrawBitmap(0,0,horse2,128,64,1);
+	 	  SSD1306_UpdateScreen();
+
+	 	  SSD1306_Clear();
+	 	  SSD1306_DrawBitmap(0,0,horse3,128,64,1);
+	 	  SSD1306_UpdateScreen();
+
+	 	  SSD1306_Clear();
+	 	  SSD1306_DrawBitmap(0,0,horse4,128,64,1);
+	 	  SSD1306_UpdateScreen();
+
+	 	  SSD1306_Clear();
+	 	  SSD1306_DrawBitmap(0,0,horse5,128,64,1);
+	 	  SSD1306_UpdateScreen();
+
+	 	  SSD1306_Clear();
+	 	  SSD1306_DrawBitmap(0,0,horse6,128,64,1);
+	 	  SSD1306_UpdateScreen();
+
+
+	 	  SSD1306_Clear();
+	 	  SSD1306_DrawBitmap(0,0,horse7,128,64,1);
+	 	  SSD1306_UpdateScreen();
+
+	 	  SSD1306_Clear();
+	 	  SSD1306_DrawBitmap(0,0,horse8,128,64,1);
+	 	  SSD1306_UpdateScreen();
+
+
+	 	  SSD1306_Clear();
+	 	  SSD1306_DrawBitmap(0,0,horse9,128,64,1);
+	 	  SSD1306_UpdateScreen();
+
+
+	 	  SSD1306_Clear();
+	 	  SSD1306_DrawBitmap(0,0,horse10,128,64,1);
+	 	  SSD1306_UpdateScreen();
+
+
+	 	  //// HORSE ANIMATION ENDS //////

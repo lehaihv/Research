@@ -1,0 +1,11 @@
+I would like to add that for my setup (nucleo-h743) it was not enough to set:
+
+hadc1.Init.EOCSelection = ADC_EOC_SEQ_CONV;
+
+I also had to enable the overrun setting as well:
+
+hadc1.Init.Overrun = ADC_OVR_DATA_OVERWRITTEN;
+
+
+Without this the HAL_ADC_PollForConversion was still blocking. 
+I do not fully understand why this was necessary but it does allow me to poll in continuous mode.

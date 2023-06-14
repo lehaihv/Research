@@ -1,0 +1,23 @@
+--cpu Cortex-M3
+"dot-matrix-multi\startup_stm32f103xb.o"
+"dot-matrix-multi\main.o"
+"dot-matrix-multi\stm32f1xx_it.o"
+"dot-matrix-multi\stm32f1xx_hal_msp.o"
+"dot-matrix-multi\max_matrix_stm32.o"
+"dot-matrix-multi\stm32f1xx_hal_gpio_ex.o"
+"dot-matrix-multi\stm32f1xx_hal_tim.o"
+"dot-matrix-multi\stm32f1xx_hal_tim_ex.o"
+"dot-matrix-multi\stm32f1xx_hal.o"
+"dot-matrix-multi\stm32f1xx_hal_rcc.o"
+"dot-matrix-multi\stm32f1xx_hal_rcc_ex.o"
+"dot-matrix-multi\stm32f1xx_hal_gpio.o"
+"dot-matrix-multi\stm32f1xx_hal_dma.o"
+"dot-matrix-multi\stm32f1xx_hal_cortex.o"
+"dot-matrix-multi\stm32f1xx_hal_pwr.o"
+"dot-matrix-multi\stm32f1xx_hal_flash.o"
+"dot-matrix-multi\stm32f1xx_hal_flash_ex.o"
+"dot-matrix-multi\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "dot-matrix-multi\dot-matrix-multi.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "dot-matrix-multi.map" -o dot-matrix-multi\dot-matrix-multi.axf
